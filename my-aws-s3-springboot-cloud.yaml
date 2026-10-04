@@ -1,0 +1,11 @@
+spring:  
+  data:
+    mongodb:
+      uri: mongodb+srv://${mongo-user}:${mongo-password}@${mongo-host}/mySpringBootPractise
+server.port: 8085
+myaws:
+  credential:
+    region: ap-south-1
+  buckets:
+    student:
+      certificate: ${my-bucket}
